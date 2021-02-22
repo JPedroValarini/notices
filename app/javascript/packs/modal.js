@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       const modal = new tingle.modal({
         closeMethods: ['overlay', 'escape'],
-        cssClass: ['instagram-modal'],
+        cssClass: ['notice-modal'],
       });
 
       const modalContent = document.querySelector(`#${button.dataset.modalId}`).innerHTML;
